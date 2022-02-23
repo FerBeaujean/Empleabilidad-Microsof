@@ -1,0 +1,331 @@
+body{
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+/* ----------------Barra de Navegación----------------------------------------*/
+.logo{
+    padding-left: 5%;
+}
+
+.nav-item{
+    font-size: small;
+    color: black;
+}
+
+/* ----------------------------Portada----------------------------------------*/
+main{
+    /*background-color: tomato;*/
+    width: 100%;
+    height: 84vh;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.portada{
+    background-image: url(./Assets/ca8b17e6-5d46-454e-b887-90a1a3cbc7b2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 83vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.info{
+    /*background-color: slateblue;*/
+    width: 30%;
+    height: 40vh;
+    margin-right: 5%;
+    display: flexs;
+    flex-direction: column;
+}
+
+.hp{
+    /*background-color: crimson;*/
+    width: 100%;
+    height: 39vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info h1, p{
+    /*background-color: teal;*/
+    color: white;
+    text-align: center;
+}
+
+.info p{
+    font-size: 1.7rem;
+}
+
+.mas{
+    background-color: #9bf00b;
+    font-weight: bold;
+    padding: 1%;
+}
+
+.mas:hover{
+    text-decoration: underline solid 2px;
+}
+
+/*----------------------------------Opciones----------------------------------*/
+.verde{
+    /*background-color: blue;*/
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
+
+.verde p{
+    font-size: .6rem;
+    color: #107c10;
+}
+
+.verde p:hover{
+    text-decoration: underline;
+}
+
+.opcion{
+    /*background-color: chocolate;*/
+    height: 14vh;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.op1{
+    padding-left: 15%;
+}
+
+/*---------------------------------------GRID PRINCIPAL-----------------------------------*/
+.grid{
+    /*background-color: crimson;*/
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    width: 600;
+    height: 310vh;
+    padding-bottom: 10%;
+    gap: .5%;
+}
+
+h2, span{
+    color: white;
+}
+
+.grid1{
+    background-color: black;
+    background-image: url(https://assets.xboxservices.com/assets/14/57/14571ec4-7c02-4628-a45c-9c1735089d5c.jpg?n=OlliOlli-World_Large-tout-0_Rad-Edition_1083x1222_02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height:75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.grid-info{
+    /*background-color: #9bf00b;*/
+    width: 100%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.grid-info1{
+    /*background-color: #666666;*/
+    width: 35%;
+    margin: 1%;
+}
+
+.grid-info1 input{
+    font-size: .7rem;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.grid-info1 input:hover{
+    text-decoration: underline solid 2px;
+}
+
+.grid3{
+    background-color: black;
+    background-image: url(https://assets.xboxservices.com/assets/2c/60/2c6005c0-3fd8-4946-b9fe-cbe37d34a2bc.jpg?n=288736_Accessory_Large-tout-0_Comp_1083x1222_02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height:75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.grid2{
+    background-color: #107c10;
+    width: 100%;
+    height:79vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-info2{
+    /*background-color: #666666;*/
+    margin-left: 1%;
+}
+
+.grid1 img{
+    width: 100%;
+}
+
+.grid2 img{
+    width: 100%;
+}
+
+/*-------------------------------------------Pre Footer---------------------------------------*/
+.pie{
+    /*background-color: cornflowerblue;*/
+    width: 80%;
+    padding: 0 12%;
+    font-size: .9rem;
+    margin-top: 1%;
+}
+
+.pie span{
+    margin-right: 2%;
+}
+
+.redes img{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.pp{
+    color: black;
+}
+
+/*-----------------------------------------------Footer---------------------------------------*/
+footer{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+
+footer section{
+    /*background-color: darkgreen;*/
+    width: 100%;
+    height: 28vh;
+    padding:0 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.piepag {
+    /*background-color: brown;*/
+    width: 100%;
+    height: 100%;
+}
+
+.piepag ul{
+    /*background-color: aquamarine;*/
+    list-style: none;
+    color: #666666;
+    font-size: .6rem;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.piepag ul li{
+    /*background-color: chartreuse;*/
+    width: 80%;   
+}
+
+.xs:hover{
+    text-decoration: underline;
+}
+
+.titulo{
+    font-size: .7rem;
+}
+
+.footer2{
+    /*background-color: #9bf00b;*/
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+
+.nose{
+   /*background-color: tomato;*/
+    width: 30%;
+    height: 8vh;
+    padding: 1%;
+    margin-top: 1%;
+    font-size: .5rem;
+    color: #666666;
+}
+
+.nose span{
+    color: black;
+}
+
+.nose input{
+    margin-top: 2%;
+}
+
+.ultimo ul{
+    /*background-color: blueviolet;*/
+    margin-top: 1.2%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: .5rem;
+    width: 120%;
+    height: 8vh;
+    padding-top: 2%;
+}
+
+/*------------------------------------MEDIA------------------------------*/
+
+@media screen and (min-width: 768px) {
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1, 1fr);
+        height: 160vh;
+    }
+    .piepag ul{
+        font-size: .7rem;
+    }
+    .titulo{
+        margin-bottom: 3%;
+    }
+
+    .ultimo ul{
+        justify-content: space-around;
+        font-size: .7rem;
+        width: 125%;
+        height: 8vh;
+        padding-top: 2%;
+    }
+
+    .nose{
+        width: 17%;
+        margin-top: .6%;
+        font-size: .8rem;
+    }
+
+}
